@@ -1,0 +1,56 @@
+* {
+    font-family: 'Iosevka';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+#window {
+    margin: 0px;
+    border: 0.0px solid;
+    border-color: rgb(203, 166, 247); 
+    border-radius: 10px;
+    background-color: #1E1D2FFF;
+    color:  /*rgb(235, 77, 129)*/ #e0def4;
+}
+
+#input {
+    margin: 15px;
+    background-color: #21202e;
+    color: #e0def4;
+    border-radius: 25px;
+    border: 2px solid #56526e;
+}
+
+#scroll {
+    margin-bottom: 15px;
+}
+
+#entry {
+    margin: 0px 15px;
+}
+
+#entry:selected {
+    /*background-color: /*rgb(245, 98, 36);*/
+    background-color: #2a273f;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+}
+
+#entry > box {
+    margin-left: 16px;
+}
+
+#entry image {
+    padding-right: 10px;
+}
+
+#colors {
+    color: #907aa9;
+    color: rgb(52, 64, 76);
+    color: rgb(76, 90, 107);
+    color: rgb(112, 122, 137);
+    color: rgb(235, 77, 129);
+    color: rgb(245, 98, 36);
+}

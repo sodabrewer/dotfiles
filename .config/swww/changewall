@@ -1,0 +1,13 @@
+# #!/bin/bash 
+
+wall=$(find ~/dotfiles/wall/ -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif" | shuf -n 1)
+
+swww init
+
+swww img $wall --transition-type=any
+
+# Enable this (by removing the # next to pywalfox update) if you use firefox AND downloaded the pywalfox extension and installed repository.
+# pywalfox update
+
+
+

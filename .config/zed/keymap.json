@@ -1,0 +1,9 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-n": "workspace::NewTerminal",
+      "ctrl-shift-m": "terminal_panel::ToggleFocus"
+    }
+  }
+]

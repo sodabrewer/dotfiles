@@ -1,0 +1,16 @@
+font = "Iosevka"
+
+clock
+timestr = %R
+datestr = %a, %e of %B
+
+image = ~/dotfiles/wall/dark_purple_kimono.png
+
+fade-in = 1
+
+effect-blur = 20x6
+effect-pixalate = 5
+effect-greyscale
+
+indicator
+

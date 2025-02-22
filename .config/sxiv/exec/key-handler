@@ -1,0 +1,11 @@
+#!/bin/sh
+
+while read file
+do 
+	case "$1" in 
+#		"w") feh --no-fehbg --bg-fill $file ;;
+    "w") swww img $file --transition-type=any ;;
+		"d") rm -rf $file ;;
+		"c") cat $file | xclip -sel c -t image/png ;;
+	esac
+done 
