@@ -3,16 +3,17 @@
 # picom
 #pgrep -x picom >/dev/null || picom &
 
-# Wallpaper
-~/dotfiles/scripts/ch-wall.sh &
-
-
 # polybar
 #~/.config/polybar/launch.sh &
 
 
-#eww
-#~/.config/eww/launch_bar &
+
+# Wallpaper
+~/dotfiles/scripts/ch-wall.sh &
+
+# Color Temp
+xsct 7000
+
 
 
 # Natural Scrolling 
