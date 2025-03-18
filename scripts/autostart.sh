@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # picom
-#pgrep -x picom >/dev/null || picom &
+pgrep -x picom >/dev/null || picom &
 
 # polybar
 #~/.config/polybar/launch.sh &
