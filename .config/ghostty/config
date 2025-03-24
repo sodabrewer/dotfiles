@@ -1,7 +1,7 @@
 font-family = Berkeley Mono 
 font-thicken = false 
 bold-is-bright = false
-adjust-box-thickness = 1
+adjust-box-thickness = 0
 background-opacity = 0.9
 cursor-style = block 
 cursor-opacity = 1
@@ -15,7 +15,7 @@ window-inherit-working-directory = true
 window-inherit-font-size = true
 window-decoration = false
 #
-theme = rose-pine 
+theme = catppuccin-mocha 
 window-theme = ghostty
 font-size = 13 
 gtk-titlebar = false
